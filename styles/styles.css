@@ -58,6 +58,11 @@ header button {
     padding: 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+
+}
+header button a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 /* main section  */
@@ -255,4 +260,15 @@ background-color: rgb(255, 255, 255);
 align-items: center;
 display: inline;
 justify-content: space-between;
+}
+
+/* footer section  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 32px 150px 32px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+
 }
