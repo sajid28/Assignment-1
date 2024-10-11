@@ -117,7 +117,7 @@ header button {
 
 iframe {
     display: block;
-    margin: 48px 150px ;
+    margin: 48px 150px;
     border-radius: 16px;
 
 }
@@ -148,7 +148,7 @@ iframe>.iframe {
 .skill {
     padding: 40px;
     width: 364px;
-height: 299px;
+    height: 299px;
 
 
 }
@@ -188,10 +188,9 @@ height: 299px;
 }
 
 /* next target section  */
-.next-target-section{
 
-}
-.next-skill-container{
+
+.next-skill-container {
     width: 1140px;
     display: flex;
     gap: 24px;
@@ -201,11 +200,59 @@ height: 299px;
     border-radius: 16px;
     margin: 48px, 150px 24px auto;
 
-    background: rgb(255, 255, 255);    
-    
+    background: rgb(255, 255, 255);
+
 }
 
-{
-    font-size: 24px;
-font-weight: 800;
+/* support-section styles  */
+.support-section {
+    background-image: url(../assets/handshake.jpg);
+    background-color: white;
+    margin: 50px 150px 80px;
+    padding: 64px 48px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.support-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.support-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+section input[type="text"]{
+    width: 548px;
+height: 57px;
+padding: 19px 20px;
+border-radius: 8px;
+border: none;
+font-size: 16px;
+font-weight: 400;
+color: rgba(13, 19, 33, 0.4);
+
+}
+.btn-submit{
+    font-size: 20px;
+    font-weight: 600;;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+    border-radius: 8px;
+background-color: rgb(255, 255, 255);
+    
+    
+
+}
+.input-field{
+align-items: center;
+display: inline;
+justify-content: space-between;
 }
